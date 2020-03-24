@@ -1,0 +1,21 @@
+{
+  "name": "cyberdelphos-web",
+  "version": "0.0.1",
+  "description": "Cyberdelphos web project",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "author": "Cyberdelphos",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3",
+    "typescript": "^3.8.3"
+  }
+}
