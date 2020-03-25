@@ -1,0 +1,20 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  overflow-x: auto;
+  position: relative;
+  scroll-snap-type: x mandatory;
+  width: 90vw;
+}
+
+.carousel-item {
+  display: block;
+  position: relative;
+  scroll-snap-align: center;
+
+  img {
+    height: 100%;
+    width: 90vw;
+  }
+}
