@@ -6,6 +6,7 @@
   position: relative;
   scroll-snap-type: x mandatory;
   width: 90vw;
+  -webkit-overflow-scrolling: touch;
 }
 
 .carousel-item {
