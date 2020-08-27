@@ -7,9 +7,15 @@ This is a project meant to be used to creat static web pages. It uses parcel.js 
 
 ## To start developing
 
-```
-npm start
-```
+1) Install dependencies 
+    ```
+    npm install
+    ```
+
+2) Run the project
+    ```
+    npm start
+    ```
 
 ## To build
 
